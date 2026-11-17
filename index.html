@@ -70,6 +70,8 @@ h1{font-family:var(--display);font-weight:400;font-size:clamp(60px,10vw,132px);l
 .sheet div{display:flex;justify-content:space-between;gap:12px;padding-block:9px;border-bottom:1px solid var(--line);font-size:14px;min-width:0}
 .sheet dt{color:var(--muted)} .sheet dd{margin:0;text-align:right;font-weight:500}
 .sheet .hl dd{color:var(--accent)}
+.sheet .full{grid-column:1/-1;align-items:flex-start}
+.sheet .full dd{line-height:1.5}
 .portraits{padding-bottom:clamp(40px,6vw,72px)}
 .portraits .cap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--muted);margin-top:10px}
 section{padding-block:clamp(48px,7vw,96px);border-top:1px solid var(--line)}
@@ -126,7 +128,7 @@ nav.top a.other{color:var(--accent)}
 
   <header class="hero" id="top">
     <div>
-      <p class="eyebrow">Comédienne · Marly-le-Roi (78) · Chambéry</p>
+      <p class="eyebrow">Comédienne</p>
       <h1>Lea<br>Mercier</h1>
       <div class="prize"><b>Prix d'interprétation Fantacting</b><span>Festival Court Métrange 2024</span></div>
     </div>
@@ -138,11 +140,10 @@ nav.top a.other{color:var(--accent)}
       <div><dt>Langues</dt><dd>Français, anglais</dd></div>
       <div class="hl"><dt>Équitation</dt><dd>Galop 7</dd></div>
       <div><dt>Permis</dt><dd>B, AM</dd></div>
-      <div><dt>Réside à</dt><dd>Marly-le-Roi (78)</dd></div>
-      <div><dt>Et à</dt><dd>Chambéry (73)</dd></div>
       <div><dt>Statut</dt><dd>Intermittente</dd></div>
       <div><dt>Formation</dt><dd>CinéMergence</dd></div>
       <div class="hl"><dt>Vidéos</dt><dd><a href="#videos">Démo et self-tape</a></dd></div>
+      <div class="full"><dt>Réside à</dt><dd>Marly-le-Roi (78)<br>Chambéry (73)</dd></div>
     </dl>
   </header>
 
