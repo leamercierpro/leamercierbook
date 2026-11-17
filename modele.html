@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Lea Mercier, modèle photo à Paris. Mensurations, séries naturel, beauté, mode et lifestyle, prestations et contact.">
+<meta property="og:title" content="Lea Mercier Modèle">
+<meta property="og:description" content="Lea Mercier, modèle photo à Paris. Mensurations, séries naturel, beauté, mode et lifestyle, prestations et contact.">
+<meta property="og:image" content="img/n08.jpg">
+<meta name="robots" content="noimageai">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Lea Mercier Modèle</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Manrope:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>:root{
+  /* Layout: model comp card — big condensed name over the measurements strip, then naturel / beauté / mode / lifestyle series in justified rows, services, contact. Light studio-white, plum accent from her CV. */
+  --bg:#F4F4F5; --surface:#E7E7EA; --ink:#0F0F11; --muted:#62646C; --line:#D5D6DB; --accent:#6C3A5C;
+  --display:"Oswald","Bebas Neue","Arial Narrow",Impact,sans-serif;
+  --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1200px;margin:0 auto}
+a{color:inherit;text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+/* Justified rows: each photo grows in proportion to its own ratio, so every photo in a line has the same height and keeps its exact proportions. Nothing is cropped or stretched. */
+.jrow{--rh:clamp(200px,32vw,440px);display:flex;flex-wrap:wrap;gap:10px}
+.jrow::after{content:"";flex:999 1 0}
+.jrow figure{margin:0;flex:var(--ar) 1 calc(var(--ar) * var(--rh));min-width:0;max-width:100%}
+.jrow.tall{--rh:clamp(220px,38vw,560px)}
+.jrow.sm{--rh:clamp(160px,22vw,300px)}
+@media (min-width:561px){.jrow{flex-wrap:nowrap}}
+.lb[hidden]{display:none}
+.ph{all:unset;display:block;cursor:zoom-in;background:var(--surface);overflow:hidden}
+.ph img{display:block;width:100%;height:auto;transition:opacity .3s ease}
+.ph:hover img{opacity:.88}
+.ph:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+figcaption{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:6px}
+.lb{position:fixed;inset:0;background:rgba(6,6,8,.96);z-index:50;display:flex;align-items:center;justify-content:center;
+  padding:calc(56px + env(safe-area-inset-top,0px)) max(60px,env(safe-area-inset-right,0px)) calc(56px + env(safe-area-inset-bottom,0px)) max(60px,env(safe-area-inset-left,0px))}
+.lb img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.lb button{position:absolute;background:none;border:0;color:#EDEDEF;font:500 13px/1 var(--mono);letter-spacing:.12em;cursor:pointer;padding:14px}
+.lb .close{top:calc(6px + env(safe-area-inset-top,0px));right:max(6px,env(safe-area-inset-right,0px))}
+.lb .prev,.lb .next{top:50%;transform:translateY(-50%);font-size:30px}
+.lb .prev{left:max(4px,env(safe-area-inset-left,0px))}.lb .next{right:max(4px,env(safe-area-inset-right,0px))}
+.lb .count{position:absolute;bottom:calc(18px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;color:#A6A7AD;font:12px var(--mono);letter-spacing:.12em}
+.copy{font:500 11px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:9px 12px;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;cursor:pointer;margin-top:10px}
+@media (max-width:560px){
+  .jrow{--rh:150px}.jrow.tall{--rh:180px}.jrow.sm{--rh:120px}.jrow::after{display:none}
+  .lb{padding-left:max(6px,env(safe-area-inset-left,0px));padding-right:max(6px,env(safe-area-inset-right,0px))}
+  .lb .prev,.lb .next{top:auto;transform:none;bottom:calc(2px + env(safe-area-inset-bottom,0px))}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+nav.top{display:flex;justify-content:space-between;align-items:center;gap:12px 24px;flex-wrap:wrap;padding-block:20px}
+.mark{font-family:var(--display);font-weight:500;font-size:18px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none}
+nav.top ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav.top a{font-size:11px;text-transform:uppercase;letter-spacing:.18em;text-decoration:none;color:var(--muted)}
+nav.top a:hover{color:var(--ink)}
+.k{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.hero{padding-block:clamp(24px,5vw,56px) 0;border-top:1px solid var(--ink)}
+h1{font-family:var(--display);font-weight:300;font-size:clamp(64px,13vw,184px);line-height:.86;letter-spacing:.01em;text-transform:uppercase;margin:12px 0 0}
+h1 b{font-weight:600}
+.sub{display:flex;justify-content:space-between;gap:8px 24px;flex-wrap:wrap;margin:16px 0 28px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);margin:0}
+.stats div{padding:14px 12px 16px;border-left:1px solid var(--line);min-width:0}
+.stats div:first-child{border-left:0;padding-left:0}
+.stats dt{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.stats dd{margin:4px 0 0;font-family:var(--display);font-size:clamp(30px,4vw,46px);line-height:1;font-variant-numeric:tabular-nums}
+.stats dd small{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:4px;letter-spacing:0}
+.stats2{display:flex;flex-wrap:wrap;gap:8px 32px;padding-block:14px;margin:0 0 clamp(32px,5vw,56px);font-size:14px}
+.stats2 div{display:flex;gap:8px}.stats2 dt{color:var(--muted)}.stats2 dd{margin:0;font-weight:600}
+.cover{margin-bottom:clamp(48px,7vw,88px)}
+section{padding-block:clamp(44px,6vw,80px);border-top:1px solid var(--line)}
+.sec-head{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:8px 32px;align-items:end;margin-bottom:20px}
+h2.sec{font-family:var(--display);font-weight:400;font-size:clamp(36px,5.5vw,64px);line-height:1;text-transform:uppercase;letter-spacing:.02em;margin:0}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:56ch;justify-self:end}
+.services{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none}
+.services li{background:var(--surface);padding:16px;min-width:0}
+.services strong{display:block;font-family:var(--display);font-weight:500;font-size:22px;text-transform:uppercase;letter-spacing:.02em;line-height:1.1}
+.services span{font-size:13px;color:var(--muted)}
+.terms{margin:24px 0 0;font-size:14px}
+.terms b{font-weight:600}
+.contact{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.contact>div{border-top:1px solid var(--ink);padding-top:12px;min-width:0}
+.contact .v{font-size:18px;margin-top:6px;overflow-wrap:anywhere}
+footer{padding-block:28px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.lb{background:rgba(244,244,245,.97)} .lb button{color:#0F0F11} .lb .count{color:#62646C}
+@media (max-width:860px){.stats{grid-template-columns:repeat(3,minmax(0,1fr))}.stats div:nth-child(4){border-left:0;padding-left:0}.stats div:nth-child(n+4){border-top:1px solid var(--line)}
+  .sec-head{grid-template-columns:1fr}.sec-head p{justify-self:start}.services{grid-template-columns:1fr 1fr}.contact{grid-template-columns:1fr}}
+@media (max-width:420px){.services{grid-template-columns:1fr}}
+nav.top a.other{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Navigation">
+    <a class="mark" href="#top">Lea Mercier</a>
+    <ul><li><a href="#naturel">Naturel</a></li><li><a href="#beaute">Beauté</a></li><li><a href="#mode">Mode</a></li><li><a href="#lifestyle">Lifestyle</a></li><li><a href="#prestations">Prestations</a></li><li><a href="#contact">Contact</a></li><li><a href="index.html" class="other">Book cinéma →</a></li></ul>
+  </nav>
+  <header class="hero" id="top">
+    <span class="k">Modèle photo</span>
+    <h1>Lea <b>Mercier</b></h1>
+    <div class="sub"><span>Paris · Chambéry · Grenoble</span><span>Mode · Beauté · E-commerce</span></div>
+    <dl class="stats" aria-label="Mensurations">
+      <div><dt>Hauteur</dt><dd>160<small>cm</small></dd></div>
+      <div><dt>Poitrine</dt><dd>85<small>C</small></dd></div>
+      <div><dt>Taille</dt><dd>64<small>cm</small></dd></div>
+      <div><dt>Hanches</dt><dd>88<small>cm</small></dd></div>
+      <div><dt>Confection</dt><dd>36<small>FR</small></dd></div>
+      <div><dt>Pointure</dt><dd>37<small>EU</small></dd></div>
+    </dl>
+    <dl class="stats2">
+      <div><dt>Âge</dt><dd>18 – 25 ans</dd></div>
+      <div><dt>Yeux</dt><dd>Noisette</dd></div>
+      <div><dt>Cheveux</dt><dd>Châtains, longs</dd></div>
+      <div><dt>Tatouages</dt><dd>Discrets</dd></div>
+      <div><dt>Piercings</dt><dd>Discrets</dd></div>
+      <div><dt>US</dt><dd>5'3" · 33C-25-35</dd></div>
+    </dl>
+  </header>
+  <div class="cover"><div class="jrow tall"><figure style="--ar:0.8000"><button type="button" class="ph" data-id="n08" aria-label="Agrandir : Assise, veste noire sur les épaules, regard frontal"><img src="img/n08.jpg" width="1200" height="1500" alt="Assise, veste noire sur les épaules, regard frontal" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="c01" aria-label="Agrandir : Portrait souriant en couleur, mains encadrant le visage"><img src="img/c01.jpg" width="1000" height="1500" alt="Portrait souriant en couleur, mains encadrant le visage" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="n12" aria-label="Agrandir : En pied sur fond blanc, posture affirmée"><img src="img/n12.jpg" width="1000" height="1500" alt="En pied sur fond blanc, posture affirmée" loading="lazy" decoding="async"></button></figure></div></div>
+  
+  <section id="naturel" aria-labelledby="naturel-t">
+    <div class="sec-head"><h2 class="sec" id="naturel-t">Naturel</h2><p>Sans artifice, tel que je me présente en casting.</p></div>
+    <div class="jrow tall"><figure style="--ar:0.7500"><button type="button" class="ph" data-id="c02" aria-label="Agrandir : Portrait naturel en couleur, pull noir"><img src="img/c02.jpg" width="1125" height="1500" alt="Portrait naturel en couleur, pull noir" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.8000"><button type="button" class="ph" data-id="c03" aria-label="Agrandir : En pied en couleur, t-shirt marron, pantalon jaune"><img src="img/c03.jpg" width="1200" height="1500" alt="En pied en couleur, t-shirt marron, pantalon jaune" loading="lazy" decoding="async"></button></figure></div>
+  </section>
+  <section id="beaute" aria-labelledby="beaute-t">
+    <div class="sec-head"><h2 class="sec" id="beaute-t">Beauté</h2><p>Visage, peau, regard. Mains et bijoux pour le détail.</p></div>
+    <div class="jrow "><figure style="--ar:0.6667"><button type="button" class="ph" data-id="c01" aria-label="Agrandir : Portrait souriant en couleur, mains encadrant le visage"><img src="img/c01.jpg" width="1000" height="1500" alt="Portrait souriant en couleur, mains encadrant le visage" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="n02" aria-label="Agrandir : Gros plan, col relevé tenu des deux mains, regard intense"><img src="img/n02.jpg" width="1000" height="1500" alt="Gros plan, col relevé tenu des deux mains, regard intense" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="n04" aria-label="Agrandir : Gros plan sombre, mains sous le menton"><img src="img/n04.jpg" width="1000" height="1500" alt="Gros plan sombre, mains sous le menton" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.8000"><button type="button" class="ph" data-id="n09" aria-label="Agrandir : Profil dans l&#x27;obscurité, regard vers le haut"><img src="img/n09.jpg" width="1200" height="1500" alt="Profil dans l&#x27;obscurité, regard vers le haut" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.8000"><button type="button" class="ph" data-id="n07" aria-label="Agrandir : Profil sur fond gris, col montant"><img src="img/n07.jpg" width="1200" height="1500" alt="Profil sur fond gris, col montant" loading="lazy" decoding="async"></button></figure></div>
+  </section>
+  <section id="mode" aria-labelledby="mode-t">
+    <div class="sec-head"><h2 class="sec" id="mode-t">Mode · Éditorial</h2><p>Studio, attitude, travail de pose et de ligne.</p></div>
+    <div class="jrow "><figure style="--ar:0.6667"><button type="button" class="ph" data-id="n01" aria-label="Agrandir : En pied, yeux fermés, blazer oversize"><img src="img/n01.jpg" width="1000" height="1500" alt="En pied, yeux fermés, blazer oversize" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.8000"><button type="button" class="ph" data-id="n11" aria-label="Agrandir : Assise sur un tabouret, jambes croisées, regard de côté"><img src="img/n11.jpg" width="1200" height="1500" alt="Assise sur un tabouret, jambes croisées, regard de côté" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="c04" aria-label="Agrandir : Assise à califourchon sur une chaise, fond noir"><img src="img/c04.jpg" width="1000" height="1500" alt="Assise à califourchon sur une chaise, fond noir" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="n12" aria-label="Agrandir : En pied sur fond blanc, posture affirmée"><img src="img/n12.jpg" width="1000" height="1500" alt="En pied sur fond blanc, posture affirmée" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.8000"><button type="button" class="ph" data-id="n10" aria-label="Agrandir : Bras croisés, veste en cuir"><img src="img/n10.jpg" width="1200" height="1500" alt="Bras croisés, veste en cuir" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="n03" aria-label="Agrandir : Assise sur un tabouret, regard caméra, fond noir"><img src="img/n03.jpg" width="1000" height="1500" alt="Assise sur un tabouret, regard caméra, fond noir" loading="lazy" decoding="async"></button></figure></div>
+  </section>
+  <section id="lifestyle" aria-labelledby="lifestyle-t">
+    <div class="sec-head"><h2 class="sec" id="lifestyle-t">Lifestyle · Street</h2><p>Extérieur, lumière naturelle, mouvement.</p></div>
+    <div class="jrow "><figure style="--ar:1.5000"><button type="button" class="ph" data-id="e04" aria-label="Agrandir : Portrait en ville, lumière dorée, regard de côté"><img src="img/e04.jpg" width="1500" height="1000" alt="Portrait en ville, lumière dorée, regard de côté" loading="lazy" decoding="async"></button></figure><figure style="--ar:1.2500"><button type="button" class="ph" data-id="e02" aria-label="Agrandir : Pull rouge à motifs devant une façade vitrée"><img src="img/e02.jpg" width="1500" height="1200" alt="Pull rouge à motifs devant une façade vitrée" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="e03" aria-label="Agrandir : Veste en tweed, regard vers le haut, rue parisienne"><img src="img/e03.jpg" width="1000" height="1500" alt="Veste en tweed, regard vers le haut, rue parisienne" loading="lazy" decoding="async"></button></figure><figure style="--ar:0.6667"><button type="button" class="ph" data-id="e01" aria-label="Agrandir : Appuyée contre une vitrine, reflet, noir et blanc"><img src="img/e01.jpg" width="1000" height="1500" alt="Appuyée contre une vitrine, reflet, noir et blanc" loading="lazy" decoding="async"></button></figure></div>
+  </section>
+  <section id="prestations" aria-labelledby="pr-t">
+    <div class="sec-head"><h2 class="sec" id="pr-t">Prestations</h2><p>Shootings sur Paris et Île-de-France. Chambéry et Grenoble si le déplacement est pris en charge.</p></div>
+    <ul class="services">
+      <li><strong>Mode</strong><span>Éditorial, campagne, créateurs</span></li>
+      <li><strong>Beauté</strong><span>Visage, maquillage, coiffure</span></li>
+      <li><strong>Détail</strong><span>Mains, bijoux, accessoires</span></li>
+      <li><strong>E-commerce</strong><span>Packshot porté, lookbook</span></li>
+      <li><strong>Showroom</strong><span>Présentation de collection</span></li>
+      <li><strong>Fitting</strong><span>Essayages, taille 36</span></li>
+      <li><strong>Publicité</strong><span>Print et vidéo</span></li>
+      <li><strong>Lifestyle</strong><span>Extérieur, mise en situation</span></li>
+    </ul>
+    <p class="terms"><b>Pas de nudité ni de projet suggestif.</b> Intermittente du spectacle.</p>
+  </section>
+  <section id="contact" aria-labelledby="contact-t">
+    <h2 class="sec" id="contact-t">Contact</h2>
+    <div class="contact">
+      <div><div class="k">E-mail</div><div class="v" id="mail">mercier.lea.2003@gmail.com</div><button type="button" class="copy" data-copy="mercier.lea.2003@gmail.com" data-target="mail">Copier l'adresse</button></div>
+      <div><div class="k">Instagram</div><div class="v"><a href="https://www.instagram.com/leamercierpro/" target="_blank" rel="noopener">@leamercierpro</a></div></div>
+      <div><div class="k">Représentation</div><div class="v">Sans agent, contact direct</div></div>
+    </div>
+  </section>
+  <footer><span>© 2026 Lea Mercier</span><span>Photographies : Studio Clotis</span></footer>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo en grand">
+  <button class="close" id="lbClose" type="button">FERMER ✕</button>
+  <button class="prev" id="lbPrev" type="button" aria-label="Photo précédente">‹</button>
+  <img id="lbImg" alt="">
+  <button class="next" id="lbNext" type="button" aria-label="Photo suivante">›</button>
+  <div class="count" id="lbCount"></div>
+</div>
+<script>
+(function(){
+  const btns=[...document.querySelectorAll(".ph")], ids=btns.map(b=>b.dataset.id);
+  const lb=document.getElementById("lb"), im=document.getElementById("lbImg"), ct=document.getElementById("lbCount");
+  let cur=0,last=null;
+  function show(){const b=btns[cur], i=b.querySelector("img");im.src=i.src;im.alt=i.alt;ct.textContent=(cur+1)+" / "+btns.length;}
+  function open(k){last=document.activeElement;cur=k;show();lb.hidden=false;document.body.style.overflow="hidden";document.getElementById("lbClose").focus();}
+  function close(){lb.hidden=true;document.body.style.overflow="";last&&last.focus();}
+  function step(d){cur=(cur+d+btns.length)%btns.length;show();}
+  btns.forEach((b,k)=>b.addEventListener("click",()=>open(k)));
+  document.getElementById("lbClose").onclick=close;
+  document.getElementById("lbPrev").onclick=()=>step(-1);
+  document.getElementById("lbNext").onclick=()=>step(1);
+  lb.addEventListener("click",e=>{if(e.target===lb)close();});
+  document.addEventListener("keydown",e=>{if(lb.hidden)return;if(e.key==="Escape")close();else if(e.key==="ArrowLeft")step(-1);else if(e.key==="ArrowRight")step(1);});
+  let x=null;lb.addEventListener("touchstart",e=>{x=e.touches[0].clientX},{passive:true});
+  lb.addEventListener("touchend",e=>{if(x===null)return;const d=e.changedTouches[0].clientX-x;if(Math.abs(d)>50)step(d<0?1:-1);x=null;});
+  document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{
+    const t=b.dataset.copy, done=()=>{b.textContent="Adresse copiée"}, fb=()=>{const r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.target));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Adresse sélectionnée"};
+    try{navigator.clipboard.writeText(t).then(done,fb)}catch(_){fb()}
+  }));
+})();
+</script>
+
+</body>
+</html>
